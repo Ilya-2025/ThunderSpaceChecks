@@ -1,0 +1,13 @@
+name: ThunderSpaceChecks
+version: '${version}'
+main: com.destroyer.thunderspacechecks.ThunderSpaceChecks
+api-version: '1.16'
+commands:
+  check:
+    description: Check a player.
+    usage: /check <player>
+    permission: thunderspacechecks.check
+  checkdone:
+    description: End a check.
+    usage: /checkdone
+    permission: thunderspacechecks.check

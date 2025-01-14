@@ -1,0 +1,16 @@
+bossbar:
+  title: "&cTime left: 5:00"
+screen:
+  title: "&cCHECK"
+  subtitle: "&6Check the instructions in the chat."
+chat:
+  message: "&cCHECK\n&6You have been called for a cheat check. Please provide your Discord..."
+  finishMessage: "&aYou have passed the check!"
+
+moderator:
+  startMessage: "&e[MOD] Player &c%player% is being checked!"
+  finishMessage: "&aYou have finished checking &c%player%."
+
+ban:
+  message: "&cYou did not respond to the check. Banned for 30 days!"
+  command: "ban %player% 30d Did not respond to the check."
